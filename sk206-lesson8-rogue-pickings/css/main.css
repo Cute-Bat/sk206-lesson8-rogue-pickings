@@ -1,0 +1,190 @@
+html{
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+.container{	
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	width: 18%; 
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+	font-size: 1.125em;
+}
+h3 {
+	font-size: 0.75em;
+}
+
+p {
+	font-size: 0.875em;
+	line-height: 1.313em;
+    padding: 0 1.875em;
+}
+
+/*The widths are in a percentage!*/
+header {
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	height: 28em;
+	justify-content: center;
+	/*border-bottom: 0.188em solid #77a466;*/
+	margin: 0 auto;
+}
+
+header h1 {
+	margin: 0;
+	padding: 1em 0;
+	width: 100%;
+	border-bottom: 0.188em solid #77a466;
+}
+header h1 span {
+	display: flex;
+	color: #77a466;
+}
+
+header nav {
+	flex-direction: column;
+	display: flex;
+	padding: 2.8em 0;
+}
+header nav ul {
+	flex-direction: column;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	flex-direction: column;
+	display: flex;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875em;
+	padding: 0 0.62em;
+}
+header nav ul li a{
+	flex-direction: column;
+	line-height: 3em;
+	display: flex;
+	text-decoration: none;
+	color:#77a466;
+	width: 100%;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	flex-direction: column;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.main-image {
+	height: auto;
+}
+.main-image img {
+	display:flex;
+	width: 100%;
+	border-bottom: 0.188em solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	width: 100%;
+}
+.main-title h2 {
+	display: flex;
+	text-align: left;
+	padding: 0.313em 0;
+	color: #77a466;
+}
+.main-title p {
+	display: flex;
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.563em;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	border-top: 0.063em solid #eee;
+}
+
+.section-one h3 {
+	padding: 0.625em 0;
+}
+
+/* ---- .section-two { ---- */
+/*                          --- border-left: 0.063em solid #eee; --- */
+/*                        ---	border-right: 0.063em solid #eee; --- */
+/*                        ---   } --- */
+
+/* --- .section-two h3,
+.section-three h3 {
+	padding: 0.3em;
+} --- */
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 0.625em 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.313em;
+	padding: 0;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 0;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	align-items: center;
+	display: flex;
+	height: 3.125em;
+	justify-content: center;
+	border-top: 0.188em solid #eee;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
+}
